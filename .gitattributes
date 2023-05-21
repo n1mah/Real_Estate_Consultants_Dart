@@ -1,8 +1,10 @@
 * text=auto eol=lf
 
+
 *.css diff=css
 *.html diff=html
-
+*.css linguist-language=css
+*.html linguist-language=html
 
 /.github export-ignore
 CHANGELOG.md export-ignore
