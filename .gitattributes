@@ -3,8 +3,10 @@
 
     *.css diff=css
     *.html diff=html
+    *.js diff=js
     *.css linguist-language=css
     *.html linguist-language=html
+    *.js linguist-language=js
 
 *.css linguist-language=css
 *.css linguist-language=Css
@@ -13,6 +15,9 @@
 *.html linguist-language=HTML
 *.html linguist-language=Html
 *.js linguist-language=JAVASCRIPT
+*.js linguist-language=js
+*.js linguist-language=javascript
+*.js linguist-language=Javascript
 
 /.github export-ignore
 CHANGELOG.md export-ignore
