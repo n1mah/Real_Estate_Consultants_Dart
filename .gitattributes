@@ -1,23 +1,10 @@
 * text=auto eol=lf
 
 
-    *.css diff=css
-    *.html diff=html
-    *.js diff=js
-    *.css linguist-language=css
-    *.html linguist-language=html
-    *.js linguist-language=js
-
-*.css linguist-language=css
-*.css linguist-language=Css
-*.css linguist-language=CSS
-*.html linguist-language=html
-*.html linguist-language=HTML
-*.html linguist-language=Html
-*.js linguist-language=JAVASCRIPT
-*.js linguist-language=js
-*.js linguist-language=javascript
-*.js linguist-language=Javascript
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+*.xml linguist-detectable=false
 
 /.github export-ignore
 CHANGELOG.md export-ignore
